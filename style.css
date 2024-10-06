@@ -1,0 +1,42 @@
+.changatext {
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+h1 {
+    margin: 0px;
+    font-family: "Changa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+p {
+    margin: 0px;
+}
+
+p.blue {
+  color: blue;
+}
+p:nth-child(even) {
+    color: red;
+} 
+
+img {
+  border: 10px solid red;
+  width: 100%;  
+}
+
+body{
+  background-color: pink;
+}
+
+* {
+  text-align: center;
+}
+
+div {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
